@@ -8,18 +8,18 @@
 
 int main(void)
 {
-	int n = 97;
-	int m = 65;
+	int x = 97;
+	int y = 65;
 
-	while (n <= 122)
+	while (x <= 122)
 	{
-		putchar(n);
-		n++;
+		putchar(x);
+		x++;
 	}
-	while (n <= 98)
+	while (y <= 90)
 	{
-		putchar(m);
-		m++;
+		putchar(y);
+		y++;
 	}
 	putchar('\n');
 	return (0);
