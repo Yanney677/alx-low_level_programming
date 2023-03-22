@@ -1,13 +1,13 @@
 #include "main.h"
 
 /**
- * main - print the alphabets 10 times
+ * print_alphabeit - print the alphabets 10 times in lowercase
  *
  * Return: always turns 0 on the screen
  */
 
 
-void print_alphabet_x10(void);
+void print_alphabet_x10(void)
 
 {
 	char ch;
@@ -22,7 +22,7 @@ void print_alphabet_x10(void);
 		{
 			_putchar(ch);
 			ch++;
-		}	
+		}
 	}
 	_putchar('\n');
 	i++;
