@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-	/**
-	 * main - prints all possible natural numbers
-	 *
-	 * Return: always return 0 on the output screen.
-	 */
+/**
+ * main - main function
+ *
+ * Return: Always return 0 on the output screen.
+ */
+
 int main(void)
 {
 	int i;
