@@ -1,10 +1,11 @@
 #include <stdio.h>
 
-	/**
-	 * main - finds and prints the sum of the even-valued term
-	 *
-	 * Return: Always 0 (Success)
-	 */
+/**
+ * main - finds and prints the sum of the even-valued term
+ *
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
 	int i;
