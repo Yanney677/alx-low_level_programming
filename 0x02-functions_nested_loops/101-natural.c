@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - main function
+ * main - computes and prints the sum of all the multiples of 3 or 5
  *
  * Return: Always return 0 on the output screen.
  */
