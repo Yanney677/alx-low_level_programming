@@ -1,12 +1,12 @@
 #include <stdio.h>
 
-	/**
-	 * main - fibonacci <3
-	 *
-	 * Purpose - no hardcode
-	 *
-	 * Return:  (Success)
-	 */
+/**
+ * main - fibonacci <3
+ *
+ * Purpose - no hardcode
+ *
+ * Return: always returns 0 (Success)
+ */
 
 int main(void)
 	{
@@ -44,4 +44,4 @@ int main(void)
 		}
 		printf("\n");
 		return (0);
-
+	}
