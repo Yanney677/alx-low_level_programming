@@ -8,13 +8,13 @@
  * Return: number of argument received
  */
 
-void main(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	int n
 
 	for (n = 0, n < argc; n++)
 	{
-		printf("%s, argv[n]);
+		printf("%s\n", argv[n]);
 	}
-		printf("\n");
+		return (0);
 }
