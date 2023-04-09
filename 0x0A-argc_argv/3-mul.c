@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int answer;
+	int i, j, z;
 
 	if (argc == 3)
 	{
@@ -19,8 +19,10 @@ int main(int argc, char *argv[])
 	}
 	else
 	{
-		answer = (atoi(argv[1])) * (atoi(argv[2]));
-		Printf("%d\n", answer);
+		i = (atoi(argv[1]));
+		j = (atoi(argv[2]));
+		z = i * j;
+		printf("%d\n", z);
 	}
 	return (0);
 }
