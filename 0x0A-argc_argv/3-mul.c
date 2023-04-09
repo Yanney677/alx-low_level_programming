@@ -10,19 +10,16 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, z;
+	int i, j;
 
 	if (argc == 3)
 	{
 		i = (atoi(argv[1]));
 		j = (atoi(argv[2]));
-		z = i * j;
-		printf("%d\n", z);
+		printf("%d\n", i * j);
 		return (0);
+
 	}
-	else
-	{
 		prinft("Error\n");
 		return (1);
-	}
 }
