@@ -3,8 +3,8 @@
 
 /**
  * _memset - fills memory with 0
- * @s: memory location to be filled with
- * @b: character to copy
+ * @m: memory location to be filled with
+ * @a: character to copy
  * @n: number of times to copy a
  *
  * Return: pointer to memory location m
