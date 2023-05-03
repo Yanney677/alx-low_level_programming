@@ -10,15 +10,15 @@ size_t free_listint_safe(listint_t **h)
 {
 size_t count = 0;
 listint_t *tp;
-int ptr;
+int df;
 
 if (!*h || !h)
 return (0);
 
 while (*h)
 {
-ptr = *h - (*h)->next;
-if (ptr > 0)
+df = *h - (*h)->next;
+if (df > 0)
 {
 tp = (*h)->next;
 free(*h);
