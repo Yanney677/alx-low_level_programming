@@ -3,11 +3,8 @@
 
 /**
  * _memset - Entry point
- *
  * @s: point to the address destination
- *
  * @b: the consatnt type
- *
  * @n: the number of byte
  *
  * Return: always 0
