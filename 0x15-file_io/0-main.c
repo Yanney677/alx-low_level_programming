@@ -4,7 +4,7 @@
 
 /**
  * main - check the code
- * @ac: write something to stdout
+ * @ac: grgument count
  * @av: argument vector
  *
  * Return: Always 0.
