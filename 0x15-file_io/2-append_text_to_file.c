@@ -11,7 +11,8 @@
 int append_text_to_file(const char *filename, char *text_content)
 {
 	int fd;
-	int nlets = 0, rw;
+	int nlets;
+	int rw;
 
 	if (!filename)
 		return (-1);
@@ -23,7 +24,8 @@ int append_text_to_file(const char *filename, char *text_content)
 
 	if (text_content)
 	{
-		for (; text_content[nlets]; nlets++)
+		for (nlets = 0; text_content[nlets]; nlets++)
+			;
 
 		rw = write(fd, text_content, nlets);
 
