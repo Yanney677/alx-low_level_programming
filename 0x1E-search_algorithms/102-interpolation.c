@@ -4,7 +4,7 @@
  * interpolation_search - Searches for a value in a sorted array of integers
  * using an interpolation search.
  * @array: The first element of the array toto search in.
- * @size: The number of element in an array.
+ * @size: The number of element in array.
  * @value: The value to search for.
  *
  * Return: The first index of the value in the array, otherwise -1.
@@ -19,7 +19,7 @@ int interpolation_search(int *array, size_t size, int value)
 	while (array[high] != array[low])
 	{
 		ptr = (double)(high - low) / (array[high] - array[low]);
-		pos = low + (tmp * (value - array[low]));
+		pos = low + (ptr * (value - array[low]));
 		if (pos >= size)
 		{
 			printf("Value checked array[%d] is out of range\n", (int)pos);
